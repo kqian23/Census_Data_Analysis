@@ -157,9 +157,9 @@ server <- function(input, output) {
   # Page: Source and Reflection Page
   # **********************************************************************
   # Insert a hyperlink for the data source
-  url <- a("Seattle Department of Construction & Inspections", href = "http://www.seattle.gov/sdci")
-  output$tab <- renderUI({
-      tagList("URL Link:", url)
+  url_source <- a("Seattle Department of Construction & Inspections", href = "http://www.seattle.gov/sdci")
+  output$source <- renderUI({
+      tagList("Data Source:", url_source)
   })
   
   # Q & A 
@@ -179,9 +179,9 @@ server <- function(input, output) {
   # Page: Source and Reflection Page
   # **********************************************************************
   # Insert a hyperlink for my linkedin
-  url <- a("LinkedIn", href = "https://www.linkedin.com/in/kun-qian-944478172/")
+  url_linkedin <- a("link", href = "https://www.linkedin.com/in/kun-qian-944478172/")
   output$linkedin <- renderUI({
-    tagList("URL Link:", url)
+    tagList("LinkedIn", url_linkedin)
   })
  
 }

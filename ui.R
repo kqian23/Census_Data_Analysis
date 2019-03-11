@@ -70,8 +70,8 @@ ui <- navbarPage("Explore Seattle Census Data in 2000 and 2010",
                           )
                     ),
                  tabPanel("Source and Reflection",
-                    p('Source:'),
-                    uiOutput("tab"),
+                    p('Source of Data:'),
+                    uiOutput("source"),
                     br(),
                     textOutput("Q"),
                     textOutput("A"),
@@ -83,4 +83,4 @@ ui <- navbarPage("Explore Seattle Census Data in 2000 and 2010",
                  
 )
 
-shinyApp(ui, server)
+shinyApp(ui = ui, server = server, options = list(height = 1080))

@@ -5,9 +5,9 @@ account: kqian23
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 780266
-bundleId: 1929959
+bundleId: 1929979
 url: https://kqian23.shinyapps.io/possible_intern_challenge/
-when: 1552287357.37274
+when: 1552288355.47787
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: www/protrait.png
